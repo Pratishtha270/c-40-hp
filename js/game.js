@@ -57,7 +57,7 @@ class Game{
                          fill("red");
                          textSize(20);
                          // add code to display the player name on the respective basket
-                        
+                         text(allPlayers[plr].name ,x-25,y+25);
                         
                         }
                      }
@@ -69,8 +69,8 @@ class Game{
                  
                  }
                 
-                if(player.score>=5){
-                    gameState = 2; 
+                if(player.score >=5){
+                    gameState = 2;
                     player.rank += 1;
                     Player.updatePlayerAtEnd(player.rank);
                     player.update();
