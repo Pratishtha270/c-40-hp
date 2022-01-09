@@ -60,7 +60,7 @@ class Game{
                          text(allPlayers[plr].name ,x-25,y+25);
                         
                         }
-                     }
+                     
                     
                          textSize(25);
                          fill("white");
@@ -118,7 +118,7 @@ class Game{
                           }
                           
                       }
-                  }
+                  }}
     showRank() {
         alert("Awesome !! You finished the game! You rank is :" +player.rank)
       }
